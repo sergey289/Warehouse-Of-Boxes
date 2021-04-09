@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace BoxesLogic.Data
 {
-    class width_X
+    class height_Y
     {
-        
-
-
-
     }
 }
