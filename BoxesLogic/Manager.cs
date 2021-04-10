@@ -451,5 +451,11 @@ namespace BoxesLogic
 
         }  //update quantity by input from users
 
+
+        public void ClearListOf_Options()
+        {
+            Alloptions.Clear();
+        }
+
     }
 }
