@@ -117,6 +117,13 @@ namespace BoxesLogic
 
         }
 
+        public void ShowAllData()
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Tree.displayTree(Tree.Root);
+            Console.ResetColor();
+
+        }
 
         public int AddNewQuantity(int currenntQuantity, int newQuantity, int maxQuantity)
         {
