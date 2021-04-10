@@ -371,5 +371,85 @@ namespace BoxesLogic
 
         }    //output of all options on request, focusing on the quantity
 
+        public bool UpdateQuantity(int id, int quantity)
+        {
+            id = id - 1;
+
+            bool id_validation = false;
+
+            if (Alloptions.Count >= id)
+            {
+                id_validation = true;
+
+                try
+                {
+
+                    height_Y objYbyId = ListOf_heights.ElementAt(id);
+
+                    width_X objXbyId = Alloptions.ElementAt(id);
+
+                    if (objYbyId.quantity >= quantity)
+                    {
+                        objYbyId.quantity = objYbyId.quantity - quantity;
+
+                        Alloptions.RemoveAt(id);
+
+                        width_X obj_with_updatedquantity = new width_X(objXbyId.x, objYbyId.y, objYbyId.quantity);
+
+                        Alloptions.Insert(id, obj_with_updatedquantity);
+
+
+
+                        if (objYbyId.CheckAllowable_Quantity())
+                        {
+                            objXbyId.y_dataList.Remove(objYbyId);
+
+                            if (objXbyId.y_dataList == null)
+                            {
+                                Tree.Remove(objXbyId);
+                            }
+
+
+
+                        }
+
+
+
+                    }
+                    else
+                    {
+                        Console.Clear();
+                        Console.WriteLine("ERROR:Entered quantity is invalid!");
+                        Console.ReadLine();
+
+
+                    }
+
+                }
+                catch (ArgumentOutOfRangeException)
+                {
+                    id_validation = false;
+                    Console.Clear();
+                    Console.WriteLine("ERROR:The Option number entered is incorrect! Press Enter and try again");
+                    Console.ReadLine();
+
+                }
+
+
+            }
+            else
+            {
+                id_validation = false;
+                Console.Clear();
+                Console.WriteLine("ERROR:incorrect item number entered!");
+                Console.ReadLine();
+            }
+
+
+            return id_validation;
+
+
+        }  //update quantity by input from users
+
     }
 }
