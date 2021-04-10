@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BoxesLogic
 {
-    public class Class1
+    public class Manager
     {
     }
 }
