@@ -1,0 +1,10 @@
+C:\Users\johnn\OneDrive\Desktop\BoxesProjectNew\Warehouse-Of-Boxes\User\bin\Debug\User.exe.config
+C:\Users\johnn\OneDrive\Desktop\BoxesProjectNew\Warehouse-Of-Boxes\User\bin\Debug\User.exe
+C:\Users\johnn\OneDrive\Desktop\BoxesProjectNew\Warehouse-Of-Boxes\User\bin\Debug\User.pdb
+C:\Users\johnn\OneDrive\Desktop\BoxesProjectNew\Warehouse-Of-Boxes\User\bin\Debug\BoxesLogic.dll
+C:\Users\johnn\OneDrive\Desktop\BoxesProjectNew\Warehouse-Of-Boxes\User\bin\Debug\BoxesLogic.pdb
+C:\Users\johnn\OneDrive\Desktop\BoxesProjectNew\Warehouse-Of-Boxes\User\obj\Debug\User.csprojAssemblyReference.cache
+C:\Users\johnn\OneDrive\Desktop\BoxesProjectNew\Warehouse-Of-Boxes\User\obj\Debug\User.csproj.CoreCompileInputs.cache
+C:\Users\johnn\OneDrive\Desktop\BoxesProjectNew\Warehouse-Of-Boxes\User\obj\Debug\User.csproj.CopyComplete
+C:\Users\johnn\OneDrive\Desktop\BoxesProjectNew\Warehouse-Of-Boxes\User\obj\Debug\User.exe
+C:\Users\johnn\OneDrive\Desktop\BoxesProjectNew\Warehouse-Of-Boxes\User\obj\Debug\User.pdb

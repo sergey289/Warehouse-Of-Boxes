@@ -1,0 +1,6 @@
+C:\Users\johnn\OneDrive\Desktop\BoxesProjectNew\Warehouse-Of-Boxes\BoxesLogic\bin\Debug\BoxesLogic.dll
+C:\Users\johnn\OneDrive\Desktop\BoxesProjectNew\Warehouse-Of-Boxes\BoxesLogic\bin\Debug\BoxesLogic.pdb
+C:\Users\johnn\OneDrive\Desktop\BoxesProjectNew\Warehouse-Of-Boxes\BoxesLogic\obj\Debug\BoxesLogic.csprojAssemblyReference.cache
+C:\Users\johnn\OneDrive\Desktop\BoxesProjectNew\Warehouse-Of-Boxes\BoxesLogic\obj\Debug\BoxesLogic.csproj.CoreCompileInputs.cache
+C:\Users\johnn\OneDrive\Desktop\BoxesProjectNew\Warehouse-Of-Boxes\BoxesLogic\obj\Debug\BoxesLogic.dll
+C:\Users\johnn\OneDrive\Desktop\BoxesProjectNew\Warehouse-Of-Boxes\BoxesLogic\obj\Debug\BoxesLogic.pdb
