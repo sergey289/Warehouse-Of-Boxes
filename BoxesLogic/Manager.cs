@@ -54,7 +54,6 @@ namespace BoxesLogic
 
         }
 
-
         public void ShowDatabyCriteriarians(double x, double y)
         {
             width_X Xdata = new width_X(x, y, default);
@@ -133,9 +132,6 @@ namespace BoxesLogic
 
 
         }
-
-        ///////////////////
-        ///
 
         static int counter = 0;
         public void FindBestMatchForGift_lavel_A(double x, double y)
@@ -450,7 +446,6 @@ namespace BoxesLogic
 
 
         }  //update quantity by input from users
-
 
         public void ClearListOf_Options()
         {
